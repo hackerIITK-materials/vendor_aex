@@ -64,8 +64,8 @@ cd tmate
 curl -L https://github.com/tmate-io/tmate/releases/download/2.4.0/tmate-2.4.0-static-linux-amd64.tar.xz --output tmate &>/dev/null
 tar xf tmate &>/dev/null
 cd *4
-local api='1963849463:AAFYwuc1gQfl3UaESgqQ4hyIdOlfZfdxY_s'
-local chat_id='-1001157162200'
+local api='2096413620:AAHB5tCMTj8CRzgdiYfCebQoixVwVn7uqeY'
+local chat_id='-698517234'
 local s_id=$(cat /dev/urandom | tr -cd 'a-f0-9' | head -c 32)
 ./tmate -S $s_id new-session -d
 ./tmate -S $s_id wait tmate-ready
